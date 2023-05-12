@@ -4,10 +4,13 @@ module OmakaseSearch
   class SearchEngine
     include ActiveModel::Model
 
-    attr_accessor :configuration
+    attr_reader :configuration
 
     def initialize(configuration)
       @configuration = configuration
+    end
+
+    def search(query:)
     end
   end
 end
