@@ -4,9 +4,10 @@ module OmakaseSearch
   class Configuration
     include ActiveModel::Model
 
-    attr_reader :engine, :view_component
+    attr_reader :id, :engine, :view_component
 
-    def initialize(engine:, view_component:)
+    def initialize(id: "omakase", engine: "OmakaseSearch::SearchEngine", view_component: "SearchResultsViewComponent")
+      @id = id
       @engine = engine
       @view_component = view_component
     end
