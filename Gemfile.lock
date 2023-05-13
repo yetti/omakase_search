@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    omakase_search (0.1.0)
+    omakase_search (1.0.0)
       rails (>= 7.0)
 
 GEM
