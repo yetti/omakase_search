@@ -5,7 +5,7 @@ require "test_helper"
 module OmakaseSearch
   class ConfigurationTest < ActiveSupport::TestCase
     def setup
-      @configuration = Configuration.new(engine: "OmakaseSearch::TestEngine", view_component: "EdsSearchResults")
+      @configuration = Configuration.new(id: "test", engine: "OmakaseSearch::TestEngine", view_component: "EdsSearchResults")
     end
 
     test "it has an engine" do
