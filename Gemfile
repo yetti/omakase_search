@@ -22,5 +22,5 @@ group :development, :test do
   gem "bundler-audit", "~> 0.9.1"
 
   # brakeman analyses code for security vulnerabilities
-  gem "brakeman", "~> 5.4"
+  gem "brakeman", "~> 6.0"
 end
