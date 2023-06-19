@@ -14,7 +14,7 @@ gem "sprockets-rails"
 group :development, :test do
   # static analysis and linting of Ruby code
   gem "standard", "~> 1.28"
-  gem "rubocop", "~> 1.50"
+  gem "rubocop", "~> 1.52"
   gem "rubocop-minitest", "~> 0.31.0"
   gem "rubocop-rails", "~> 2.19"
 
